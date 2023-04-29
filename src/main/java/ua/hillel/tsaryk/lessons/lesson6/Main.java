@@ -81,7 +81,7 @@ public class Main {
         System.out.println("Input frag player 1 team 2");
 
             if (sc.hasNextInt())   {
-            fragPlayer1Team1 = sc.nextInt();
+            fragPlayer1Team2 = sc.nextInt();
             } else{
                 System.out.println("Wrong data! Try again!");
             System.exit(0);
