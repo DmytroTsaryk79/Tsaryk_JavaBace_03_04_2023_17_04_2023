@@ -6,10 +6,12 @@ public class Person {
         personInfo("Will Smith", "New York", "2936729462846");
         personInfo("Jackie Chan", "Shanghai", "12312412412");
         personInfo("Sherlock Holmes", "London", "37742123513");
-        }
-        static void personInfo(String name, String sity, String phone){
 
-            System.out.println("Your can call " + name + " from the sity " + sity + " at phone " + phone);
+                }
+        static String personInfo(String name, String city, String phone){
+        String infoPerson = ("Your can call " + name + " from the sity " + city + " at phone " + phone);
+            return infoPerson;
         }
+
     }
 
